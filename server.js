@@ -18,7 +18,7 @@ app.use('/menu',menuRoutes);
 // app.post("/person", (req, res) => {
 //   const data = req.body;
 //   const newPerson = new Person();
-//    newPerson.name=data.name;
+//   newPerson.name=data.name;
 //   newPerson.age=data.age;
 
 app.listen(3000, () => {
