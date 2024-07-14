@@ -14,9 +14,9 @@ app.use('/person',personRoutes);
 const menuRoutes = require('./routes/menuRoutes');
 app.use('/menu',menuRoutes);
 
+//long process to represent the data
 // app.post("/person", (req, res) => {
 //   const data = req.body;
-//long process to represent the data
 // const newPerson = new Person();
 // newPerson.name=data.name;
 // newPerson.age=data.age;
