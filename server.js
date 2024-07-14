@@ -17,9 +17,9 @@ app.use('/menu',menuRoutes);
 //long process to represent the data
 // app.post("/person", (req, res) => {
 //   const data = req.body;
-// const newPerson = new Person();
-// newPerson.name=data.name;
-// newPerson.age=data.age;
+//   const newPerson = new Person();
+//    newPerson.name=data.name;
+//   newPerson.age=data.age;
 
 app.listen(3000, () => {
   console.log("listening on port 3000");
